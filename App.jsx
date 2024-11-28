@@ -2,11 +2,20 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
+
+//React.createElement => Object =>HTMLElement(Render)
 const heading=React.createElement("h1",
     {id:"heading"},
-    "Namaste React 🥊")
+    "Namaste React 🥊");
+
+console.log(heading);
+
+//JSX - HTML-like or XML-like syntax
+const jsxHeading=<h1 id="heading">Namaste React using JSX🥊</h1>
+
+console.log(jsxHeading);
 
 const root =ReactDOM.createRoot
-(document.getElementById("root"))
+(document.getElementById("root"));
 
-root.render(heading)
+root.render(heading);
