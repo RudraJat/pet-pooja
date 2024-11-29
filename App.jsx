@@ -12,14 +12,20 @@ import ReactDOM from "react-dom/client";
 
 //Easy Way
 //JSX - HTML-like or XML-like syntax
-const jsxHeading = (
+const Title =()=> (
     <h1 className="head">
         Namaste React using JSX🥊
     </h1>
 );
 
-console.log(jsxHeading);
+
+const HeadingComponent =()=>(
+    <div id="container">
+        <Title/>
+        <h1 className="heading">Namaste React Funcitonal Component.</h1>
+    </div>
+);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-
-root.render(jsxHeading);
+ 
+root.render(<HeadingComponent/>);
