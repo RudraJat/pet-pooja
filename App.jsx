@@ -12,16 +12,20 @@ import ReactDOM from "react-dom/client";
 
 //Easy Way
 //JSX - HTML-like or XML-like syntax
-const Title =()=> (
+
+const elem = <span>React Element</span>
+const Title = (
     <h1 className="head">
+        {elem} 
         Namaste React using JSX🥊
     </h1>
 );
 
 
+
 const HeadingComponent =()=>(
     <div id="container">
-        <Title/>
+        {Title}
         <h1 className="heading">Namaste React Funcitonal Component.</h1>
     </div>
 );
