@@ -22,11 +22,21 @@
 }
 
 .restro-card{
+    padding: 5px;
+    margin : 5px;
     width: 200px;
-    height: 300px;
-    border: 1px solid black;
+    height: 310px;
+ 
 }
 
+.restro-card:hover{
+    cursor: pointer;
+    border: 1px solid black;
+}
 .Search{
     padding: 10px;
+}
+
+.restro-logo{
+    width: 100%;
 }

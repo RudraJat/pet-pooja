@@ -52,6 +52,9 @@ const RestaurantCard = () =>{
             src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/h7oibtpm7kqks8cqz3gh" 
             alt="restro-logo" />
             <h3>Meghana Food</h3>
+            <h5>Momos, North India, Indian</h5>
+            <h5>4.3 star</h5>
+            <h5>38 mins</h5>
         </div>
     );
 };
