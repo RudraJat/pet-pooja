@@ -67,6 +67,12 @@ const Body = () => {
             </div>
             <div className="restro-container">
                  <RestaurantCard/>
+                 <RestaurantCard/>
+                 <RestaurantCard/>
+                 <RestaurantCard/>
+                 <RestaurantCard/>
+                 <RestaurantCard/>
+                 <RestaurantCard/>
             </div>
         </div>
     );
