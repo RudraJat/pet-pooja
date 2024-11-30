@@ -13,25 +13,29 @@ import ReactDOM from "react-dom/client";
 //Easy Way
 //JSX - HTML-like or XML-like syntax
 
-const elem = <span>React Element</span>
-const Title =()=> (
-    <h1 className="head">
-        {elem} 
-        Namaste React using JSX🥊
-    </h1>
-);
+const Header =()=>{
+    return(
+        <div className="header">
+            <div className="logo-container">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSf3x3BazQ5A8Pl23HsWGaSdWX0iOGwNDqeGw&s" alt="Logo" />
+            </div>
+            <div className="nav-items">
+                <ul>
+                    <li>Home</li>
+                    <li>About Us</li>
+                    <li>Contact Us</li>
+                    <li>Cart</li>
+                </ul>
+            </div>
+        </div>
+    );
+};
 
-
-
-const HeadingComponent =()=>(
-    <div id="container">
-        <Title />
-        <Title></Title>
-        {Title()} {/* because and all it is js code(function) */}
-        <h1 className="heading">Namaste React Funcitonal Component.</h1>
+const AppLayout = () =>{
+    return <div className="app">
+        <Header/>
     </div>
-);
-
+}
 const root = ReactDOM.createRoot(document.getElementById("root"));
  
-root.render(<HeadingComponent/>);
+root.render(<Header/>);
