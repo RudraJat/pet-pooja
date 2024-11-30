@@ -1,4 +1,32 @@
-#heading{
-    color:aquamarine;
-    background:black;
+.header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+.logo{
+   width: 100px; 
+   padding: 10px 10px;
+}
+
+.nav-items > ul{
+    padding: 10px 10px 0px 0px;
+    display: flex;
+    list-style-type: none;
+    font-size: 22px;
+}
+
+.nav-items > ul > li{
+    padding: 6px;
+    margin: 10px;
+}
+
+.restro-card{
+    width: 200px;
+    height: 300px;
+    border: 1px solid black;
+}
+
+.Search{
+    padding: 10px;
 }
